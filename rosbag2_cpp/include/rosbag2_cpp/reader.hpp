@@ -47,7 +47,7 @@ class BaseReaderInterface;
 /**
  * The Reader allows opening and reading messages of a bag.
  */
-class ROSBAG2_CPP_PUBLIC Reader final
+class ROSBAG2_CPP_PUBLIC Reader
 {
 public:
   explicit Reader(std::unique_ptr<reader_interfaces::BaseReaderInterface> reader_impl);
